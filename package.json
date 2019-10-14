@@ -1,0 +1,26 @@
+{
+  "name": "land-of-promise",
+  "version": "0.0.1",
+  "description": "Promises with additional features.",
+  "main": "index.js",
+  "scripts": {
+    "test": "test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emuggie/land-of-promise.git"
+  },
+  "keywords": [
+    "land-of-promise",
+    "lop"
+  ],
+  "author": "emuggie",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/emuggie/land-of-promise/issues"
+  },
+  "homepage": "https://github.com/emuggie/land-of-promise#readme",
+  "dependencies": {
+    "@types/node": "^12.7.12"
+  }
+}
