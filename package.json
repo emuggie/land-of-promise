@@ -1,6 +1,6 @@
 {
   "name": "land-of-promise",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Promises with additional features.",
   "main": "index.js",
   "scripts": {
