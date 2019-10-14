@@ -5,6 +5,11 @@ Extended promises with ES6. Implemented with Typescript.
 - OpenPromise
 - TimeoutPromise
 
+## How to use.
+```javascript
+const { OpenPromise, TimeoutPromise} = require('land-of-promise');
+```
+
 ## OpenPromise
 OpenPromise is Promise extended class which has following features.
 - Resolvalbe, rejectable from outside of Promise.
@@ -16,7 +21,7 @@ OpenPromise is Promise extended class which has following features.
 const promise = new OpenPromise((resolve, reject)=>{
   ...some code...
 }).then( resolved => {
-  ...som code...
+  ...some code...
 });
 
 promise.resolve('resolve from outside!');
